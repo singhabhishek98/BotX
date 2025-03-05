@@ -17,9 +17,14 @@
 
 ## 🖼️ Screenshots
 
-### Chatbot Interface
-![Chatbot UI Screenshot](https://via.placeholder.com/800x400?text=Chatbot+Interface+Preview)
-
+## 📷 Screenshots 
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://github.com/singhabhishek98/MentorConnect/blob/main/Screen%20Shot/1.png" width="400" height="200" alt="Mentor Connect Homepage"></td>
+    </tr>
+  </table>
+</div>
 ---
 
 ## ⚙️ Installation

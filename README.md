@@ -21,7 +21,7 @@
 <div align="center">
   <table>
     <tr>
-      <td><img src="https://github.com/singhabhishek98/MentorConnect/blob/main/Screen%20Shot/1.png" width="400" height="200" alt="Mentor Connect Homepage"></td>
+      <td><img src="https://github.com/singhabhishek98/BotX/blob/main/UI.png" width="400" height="200" alt="Mentor Connect Homepage"></td>
     </tr>
   </table>
 </div>
@@ -43,13 +43,4 @@
 ---
 
 ## 👨‍💻 Author
-Made with ❤️ by [Abhishek Singh](https://www.linkedin.com/in/itsabhishek98/)
-
----
-
-## 📜 License
-This project is licensed under the MIT License.
-
----
-
-Now your README has sections for **Screenshots** and a **Live Demo** link! Let me know if you'd like any further changes. 😊
+<p align="right"><b>Made with ❤️ by <a href="https://github.com/singhabhishek98">Abhishek Singh</a></b></p>

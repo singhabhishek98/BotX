@@ -1,0 +1,161 @@
+/* General Styles */
+* {
+  font-size: 1.3vw;
+  font-family: "Epilogue", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  --scrollbarBG: #fff;
+  --thumbBG: #90a4ae;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Background Video */
+#background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+
+/* Chat Card */
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 100%;
+  max-height: 70vh; /* Prevents chatbox from overlapping footer */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+#header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#header h1 {
+  font-family: 'Finger Paint', cursive;
+  color: #333;
+  margin: 0;
+}
+
+/* Message Section */
+#message-section {
+  flex-grow: 1; /* Allows messages to expand */
+  max-height: 50vh; /* Prevents overflow into the footer */
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding-right: 5px; /* Prevents hiding content behind scrollbar */
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.message.bot {
+  justify-content: flex-start;
+}
+
+.message span {
+  background: #e0e0e0;
+  border-radius: 20px;
+  padding: 10px 15px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+/* Input Section */
+#input-section {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+  outline: none;
+}
+
+button.send {
+  background: #4CAF50;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button.send:hover {
+  background: #45a049;
+}
+
+button.send .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+button.send .circle i {
+  font-size: 20px;
+}
+
+/* Footer */
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Social Links - Remove underline */
+.social-links a {
+  color: #007bff;
+  text-decoration: none; /* Ensures no underline */
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  color: #0056b3;
+  text-decoration: none; /* Prevents underline on hover */
+}
+
+.social-links i {
+  font-size: 24px;
+}
